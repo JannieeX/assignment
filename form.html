@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+    <div class="login">
+        <form action="" method="POST">
+            <div class="username">
+                <label for="username">姓名：</label>
+                <input id="username" type="text"  name="username" placeholder="用户名">
+            </div>
+            <div class="password">
+                <label for="password">密码：</label>
+                <input id="password" type="password"  name="password" value="12345678">
+            </div>
+            <div class="sex">
+                <label for="" >性别：</label>
+                <input type="radio" name="sex" value="男" checked >男
+                <input type="radio" name="sex" value="女">女
+            </div>
+            <div class="perference">
+                <label for="" >取向：</label>
+                <input type="radio" name="perference" value="男">男
+                <input type="radio" name="perference" value="女" checked>女
+            </div>
+            <div class="hobby">
+                <label for="">爱好：</label>
+                <input type="checkbox" name="hobby" value="data">data
+                <input type="checkbox" name="hobby" value="travel"checked>旅游
+                <input type="checkbox" name="hobby" value="pets" checked>宠物
+            </div>
+            <div class="comment">
+                <label for="">评论：</label>
+                <textarea placeholder="ddd" name="comment" cols="50" rows="10" >
+                </textarea>
+            </div>
+            <div class="car">
+                <label for="">我的car：</label>
+                <select name="mycar" id="">
+                        <option value="SAAB">萨博</option>
+                        <option value="BMW" >宝马</option>
+                        <option value="CRV">本田</option>
+                        <option value="Audi">奥迪</option>
+                    </select>   
+            </div>
+            <div class="submit">
+                <input type="submit" value="提交">
+            </div>
+
+        </form> 
+    </div>
+</body>
+</html>
