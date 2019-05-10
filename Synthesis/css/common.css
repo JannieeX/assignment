@@ -199,7 +199,7 @@ section .list figure>a:hover::before {
   justify-content: center;
   z-index: 2;
 }
-section .article-list a:hover::before {
+section .article-list figure>a:hover::before {
   content: '\271A';
 }
 section .article-list img {
