@@ -379,6 +379,7 @@ section .icon-share {
   height: 100%;
   width: 100%;
   border-radius: 5px;
+  border: none;
 }
 #contact .btn{
   margin-top: 30px;
