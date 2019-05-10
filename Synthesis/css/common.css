@@ -173,7 +173,7 @@ section .article-list figure{
   box-shadow: 2px 2px 5px #ccc;
  
 }
-section .list a {
+section .list figure> a {
   display: block;
   position: relative;
   z-index: 1;
@@ -183,7 +183,7 @@ section .article-list a{
   overflow: hidden;
 
 }
-section .list a:hover::before {
+section .list figure>a:hover::before {
   content: '';
   color: #fff;
   font-size: 120px;
@@ -299,7 +299,6 @@ section .timeline .end{
 section .breed-list img{
   width: 100%;
   height: 100%;
-  margin:0;
 }
 
 section .breed-list figure > a{
@@ -319,27 +318,28 @@ section .breed-list figure > a:hover::before {
   content: '\2764';
 }
 
-section .icon-share {
-  margin-right: 40px;
-  margin-left: 40px;
+.icon-share {
+  text-align:center;
 }
-
-.icon-share a{
-  padding: 10px 15px;
-  font-size: 20px;
-  border-radius: 50%;
-  float: left;
-  
-  color: white;
+.icon-share li{
+  display:inline-block;
+  margin: 10px;
+}
+.icon-share > li > a{
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+  width: 50px;
+  height:50px;
   background-color: #444;
   border-radius: 50%;
-  margin: 10px;
- 
+  font-size: 20px;
+  color: white;
 }
-.icon-share a:hover{
-  background-color: rgba(247,186,62,.8);
-  overflow: hidden;
+.icon-share > li > a:hover {
+  background-color: #f7ba3e;
 }
+
 
 /*part5*/
 #contact{
@@ -376,7 +376,6 @@ section .icon-share {
   height: 100%;
   width: 100%;
   border-radius: 5px;
-  border: none;
 }
 #contact .btn{
   margin-top: 30px;
@@ -390,9 +389,7 @@ section .icon-share {
   float: left;
   width: 33.3%;
 }
-footer .icon-share{
-  padding: 0 105px;
-}
+
 .warning,.copyright{
   padding: 20px 20px;
 }
