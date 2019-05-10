@@ -320,19 +320,16 @@ section .breed-list figure > a:hover::before {
 }
 
 section .icon-share {
-  width:180px;
-  margin:auto;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .icon-share a{
-  width: 40px;
-  height: 40px;
-  font-size: 25px;
+  padding: 10px 15px;
+  font-size: 20px;
   border-radius: 50%;
   float: left;
-  display:flex;
-  align-items: center; 
-  justify-content: center;
+  
   color: white;
   background-color: #444;
   border-radius: 50%;
@@ -393,8 +390,7 @@ section .icon-share {
   width: 33.3%;
 }
 footer .icon-share{
-  width: 180px;
-  margin: 0 auto;
+  padding: 0 105px;
 }
 .warning,.copyright{
   padding: 20px 20px;
